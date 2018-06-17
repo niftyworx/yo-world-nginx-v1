@@ -8,6 +8,8 @@ curl localhost:80 | http://localhost:80
 curl localhost:80/v1/ | http://localhost:80/v1/
 
 
+NOTE: Dynamic port mappings is only supported on ALB not ELB (Classic Load Balancer) - need an explicity hostPort to containerPort bindings
+
 
 Task Definition: task-def-yo-world-v1:1
 
